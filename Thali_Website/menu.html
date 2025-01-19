@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant - Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>TheThaliHouse</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="signup.html">Signup</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+
+      <div class="menu-item">
+        <img src="./img/pic2.webp" alt="Dish 2">
+        <h3>Panjabi Thali</h3>
+        <p>A hearty and flavorful thali featuring dal makhani, butter chicken, naan, and rice</p>
+        <h1>RS 300/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="./img/pic4.jpg" alt="Dish 2">
+        <h3>Gujarati Thali</h3>
+        <p>A vibrant thali with a variety of flavors, including dal, kadhi, puri, rice, and a sweet dish like shrikhand</p>
+        <h1>RS 400/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="./img/pic12.jpg" alt="Dish 2">
+        <h3> Rajasthani Thali</h3>
+        <p>A rich assortment of dishes such as dal baati churma, gatte ki sabzi, and ker sangri.</p>
+        <h1> RS 450/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="./img/PIC11.jpg" alt="Dish 2">
+        <h3> Maharashtrian Thali </h3>
+        <p>A balanced thali with dishes like pav bhaji, vada pav, puran poli, and masala bhaat.</p>
+        <h1>RS 500/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div> 
+   
+  
+
+
+    
+   
+
+    
+
+        <div class="menu-item">
+          <img src="./img/pic7.jpg" alt="Dish 2">
+          <h3>South Indian Thali</h3>
+          <p>A wholesome meal with sambar, rasam, curd rice, dosa, and coconut chutney.</p>
+          <h1>RS 530/-</h1>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+      <div class="menu-item">
+        <img src="./img/pic13.jpg" alt="Dish 2">
+        <h3>Bengali Thali</h3>
+        <p>A delicious spread with rice, shorshe ilish (hilsa fish), macher jhol, and mishti doi.</p>
+        <h1>RS 430/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      
+      <div class="menu-item">
+        <img src="./img/pic9.jpg" alt="Dish 2">
+        <h3>Lucknowi Thali</h3>
+        <p>A royal thali with rich kebabs, naan, korma, and fragrant rice dishes like biryani.</p>
+        <h1>RS 600/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="./img/pic10.jpg" alt="Dish 2">
+        <h3>Bihari Thali</h3>
+        <p>A rustic and filling thali with litti chokha, dal, and sabzi, offering bold and simple flavors.</p>
+        <h1>RS 670/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div> 
+
+
+    </div>
+
+  </section> -->
+
+
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item" data-id="1" data-name="Panjabi Thali" data-price="300">
+        <img src="./img/pic2.webp" alt="Panjabi Thali">
+        <h3>Panjabi Thali</h3>
+        <p>A hearty and flavorful thali featuring dal makhani, butter chicken, naan, and rice.</p>
+        <h1>RS 300/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="2" data-name="Gujarati Thali" data-price="400">
+        <img src="./img/pic4.jpg" alt="Gujarati Thali">
+        <h3>Gujarati Thali</h3>
+        <p>A vibrant thali with a variety of flavors, including dal, kadhi, puri, rice, and shrikhand.</p>
+        <h1>RS 400/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="3" data-name="Rajasthani Thali" data-price="450">
+        <img src="./img/pic12.jpg" alt="Rajasthani Thali">
+        <h3>Rajasthani Thali</h3>
+        <p>A rich assortment of dishes such as dal baati churma, gatte ki sabzi, and ker sangri.</p>
+        <h1>RS 450/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="4" data-name="Maharashtrian Thali" data-price="500">
+        <img src="./img/PIC11.jpg" alt="Maharashtrian Thali">
+        <h3>Maharashtrian Thali</h3>
+        <p>A balanced thali with dishes like pav bhaji, vada pav, puran poli, and masala bhaat.</p>
+        <h1>RS 500/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="5" data-name="South Indian Thali" data-price="530">
+        <img src="./img/pic7.jpg" alt="South Indian Thali">
+        <h3>South Indian Thali</h3>
+        <p>A wholesome meal with sambar, rasam, curd rice, dosa, and coconut chutney.</p>
+        <h1>RS 530/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="6" data-name="Bengali Thali" data-price="430">
+        <img src="./img/pic13.jpg" alt="Bengali Thali">
+        <h3>Bengali Thali</h3>
+        <p>A delicious spread with rice, shorshe ilish (hilsa fish), macher jhol, and mishti doi.</p>
+        <h1>RS 430/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="7" data-name="Lucknowi Thali" data-price="600">
+        <img src="./img/pic9.jpg" alt="Lucknowi Thali">
+        <h3>Lucknowi Thali</h3>
+        <p>A royal thali with rich kebabs, naan, korma, and fragrant rice dishes like biryani.</p>
+        <h1>RS 600/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+  
+      <div class="menu-item" data-id="8" data-name="Bihari Thali" data-price="670">
+        <img src="./img/pic10.jpg" alt="Bihari Thali">
+        <h3>Bihari Thali</h3>
+        <p>A rustic and filling thali with litti chokha, dal, and sabzi, offering bold and simple flavors.</p>
+        <h1>RS 670/-</h1>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+      
+    </div>
+    <p class="cart-total">Total: ₹<span id="cart-total">0</span></p>
+    <button id="checkout">Checkout</button>
+  </section>
+  
+
+  <footer>
+    <div class="footer-right">
+        <p>Address: 123 Flavor St, Food City, India</p>
+        <p>Email: info@thalihouse.com</p>
+        <p>Phone: +91 123 456 7890</p>
+      </div>
+    </div> 
+
+    <script src="menu.js"></script>
+</body>
+</html>
